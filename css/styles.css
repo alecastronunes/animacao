@@ -1,0 +1,45 @@
+.wrap{
+    margin: 0px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.container{
+    display: inline-block;
+    width: 33%;
+}
+
+h1{
+    color: red;
+    font-size: 20px;
+    font-weight:bold;
+    text-align: center;
+}
+
+.box{
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    margin:30px auto;
+}
+
+.wrap:hover .box{
+    transform: scale(2);
+    filter: hue-rotate(180deg);
+}
+
+.box1{
+    background: lightseagreen;
+    transform: translate(1, 1);
+}
+
+.box2:hover{
+    background: green;
+    transition: 2s;
+}
+
+.box3{
+    background :gray;
+    transition: all 3s;
+}
+
